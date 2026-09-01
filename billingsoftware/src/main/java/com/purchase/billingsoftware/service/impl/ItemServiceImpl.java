@@ -28,7 +28,6 @@ import java.util.stream.Collectors;
 public class ItemServiceImpl implements ItemService {
 
     private final ItemRepository itemRepository;
-    private final FileUploadServiceImpl fileUploadService;
     private final CategoryRepository categoryRepository;
 
     @Override
