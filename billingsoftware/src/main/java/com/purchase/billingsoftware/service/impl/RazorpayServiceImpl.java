@@ -17,10 +17,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 @RequiredArgsConstructor
 public class RazorpayServiceImpl implements RazorPayService {
 
-    @Value("${razorpay.key.id}")
+//    @Value("${razorpay.key.id}")
     private String razorKeyId;
 
-    @Value("${razorpay.key.secret}")
+//    @Value("${razorpay.key.secret}")
     private String razorpayKeySecret;
 
     @Override
