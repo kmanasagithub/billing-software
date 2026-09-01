@@ -1,0 +1,22 @@
+.cart-summary {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 5px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-summary-details {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.cart-summary button {
+  box-sizing: border-box;
+}
+
+.cart-summary .d-flex {
+  width: 100%;
+  box-sizing: border-box;
+}
